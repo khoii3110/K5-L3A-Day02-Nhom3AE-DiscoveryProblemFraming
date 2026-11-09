@@ -5,7 +5,7 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: Nhom3AE
 - Thành viên: xem `TEAM.md`
 - Candidate problem được chọn (1 câu):
 - Quyết định cuối: Go / Not Yet / No-Go
@@ -18,18 +18,15 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 1 | Bùi Quang Hiếu | Khi sắp báo tiến độ task backend, muốn biết phần nào đã tự kiểm tra đạt, để không báo hoàn thành quá sớm | Junior Backend Developer; PM dự án | Bước 2: ước lượng và báo PM trước khi self-test đủ; 1 lần trượt khoảng 4 giờ | |
+| 2 | Bùi Quang Hiếu | Khi backend lỗi trên môi trường test, muốn xác định request và điều kiện gây lỗi, để tìm đúng nguyên nhân mà không dò code quá lâu | Junior Backend Developer | Bước 3: đọc code khi thiếu log; khoảng 30 phút khi có log, tới 2 giờ khi thiếu log (ước lượng) | |
+| 3 | Bùi Quang Hiếu | Khi đến giờ daily report từng dự án, muốn nhớ đúng việc đã làm và phần còn vướng, để PM nhận cập nhật đúng | Junior Backend Developer; PM | Giả thuyết ở bước 1 (nhớ lại việc trong ngày); chưa xác nhận là pain | |
+| 4 | Nguyễn Văn Đăng | Khi vừa cập nhật code website, muốn biết chức năng cũ còn chạy đúng, để không chuyển lỗi sang tester | Backend developer; tester và dev liên quan | Bước 3: kiểm thử từng chức năng, 50/120 phút mỗi lần, 3 lần/tuần | |
+| 5 | Nguyễn Văn Đăng | Khi nhận sửa module người khác viết, muốn hiểu luồng xử lý và phần phụ thuộc, để sửa đúng chỗ | Backend developer; 2 dev khác; người review | Bước 3: đọc luồng xử lý, 50/150 phút mỗi module, 2 lần/tuần | |
+| 6 | Nguyễn Văn Đăng | Khi lịch học và lịch làm việc trùng, muốn biết sớm việc nào ưu tiên và cần báo ai, để không trễ deadline | Sinh viên vừa đi làm; đồng nghiệp, nhóm học | Bước 3: trao đổi với người liên quan, 25/90 phút mỗi lần, 2 lần/tháng | |
+| 7 | Nguyễn Minh Khôi | Khi khách hàng gửi yêu cầu hỗ trợ về xe, muốn xác định cần trả lời FAQ hay tạo ticket, để khách được xử lý đúng | Khách hàng VinFast; nhân viên chăm sóc khách hàng | Bước phân loại ý định và chọn hành động; chưa có số phút | |
+| 8 | Nguyễn Minh Khôi | | | | |
+| 9 | Nguyễn Minh Khôi | | | | |
 
 ### 2.2. Cluster
 

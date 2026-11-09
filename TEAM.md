@@ -82,11 +82,13 @@ Mỗi thành viên tự điền mục của mình, tiêu đề là `HoVaTen-MSSV
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- Đề xuất phân công CP3–CP6 cho 3 thành viên và điền thông tin nhóm trong `TEAM.md`.
+- Gom Problem Card của 3 thành viên vào bảng pitch (mục 2.1 `group_report.md`) để chuẩn bị buổi hội tụ CP3.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
--
+- `TEAM.md`: commit `371bc60`.
+- `group_report.md` mục 2.1 (bảng pitch).
 
 **Điều mình học được từ phần nhóm:**
 

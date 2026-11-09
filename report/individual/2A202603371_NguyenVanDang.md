@@ -194,4 +194,7 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 ## 7. Tài liệu tham khảo
 
--
+- [docs/01-worksheet.md](../../docs/01-worksheet.md): hướng dẫn và mẫu cho CP1–CP2.
+- Intercom, "How we accidentally invented Job Stories": https://www.intercom.com/blog/accidentally-invented-job-stories/ (mẫu Job Story dùng ở mục 2 và 3).
+- Design Council, "Framework for Innovation" (Double Diamond): https://www.designcouncil.org.uk/resources/framework-for-innovation/ (scan rộng trước, chọn top 3 sau).
+- Anthropic, "Building effective agents": https://www.anthropic.com/research/building-effective-agents (phân biệt Rule / Workflow / Agent khi ghi cảm nhận nhanh).
