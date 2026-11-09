@@ -129,14 +129,14 @@ Chưa có bằng chứng bước 1 làm report chậm hoặc sai.
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
+| Pitch Problem Card | Nhận phụ trách trình bày 3 card cá nhân: báo tiến độ trước khi self-test đủ, tìm nguyên nhân lỗi ở môi trường test và daily report theo dự án. Chưa ghi nhận buổi pitch thực tế. | Ba card đã có ở mục 3 để trình bày; sau buổi pitch cần ghi câu hỏi phản biện thực nhận và tác động tới lựa chọn nhóm. |
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
 | Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
+| Gom cluster / cây OST | Nhận phụ trách rà soát cách gom candidate và cây OST tại `report/team/group_report.md` mục 2.2–2.3; cần tự kiểm lại với các thành viên trước khi ghi là đóng góp đã thực hiện. | Bản nhóm hiện có 3 cluster và cây OST cho problem kiểm thử hồi quy; chưa có ghi nhận cá nhân về phần Hiếu trực tiếp trình bày/chỉnh sửa. |
+| Chọn candidate problem | Nhận phụ trách giải thích bảng chấm điểm và lý do chọn/loại tại `report/team/group_report.md` mục 2.4; chưa có ghi nhận riêng về phần Hiếu trực tiếp chấm hoặc phản biện trong buổi nhóm. | Bảng nhóm ghi candidate #4 của Đăng đạt 34/35 và được nhóm chốt; cần bổ sung đóng góp cụ thể của Hiếu nếu có. |
 | Kiểm chứng / research | | |
 | Quy trình nhóm | | |
-| Problem Statement | | |
+| Problem Statement | Nhận phụ trách đối chiếu Problem Statement v0/v1 tại `report/team/group_report.md` mục 5 và 7 với candidate nhóm chọn; đã yêu cầu thống nhất mốc 120 phút/lần, bottleneck kiểm thử thủ công 50 phút và giữ quyết định Not Yet. Nội dung báo cáo có AI hỗ trợ, cần nhóm tự rà soát và chốt. | v0/v1 hiện giữ cùng bottleneck; bước chọn case chỉ là giả thuyết phụ, không được coi là pain đã kiểm chứng. |
 | Mức can thiệp AI | | |
 | Quyết định | | |
 
@@ -148,10 +148,10 @@ Chưa có bằng chứng bước 1 làm report chậm hoặc sai.
 |---|---|---|---|---|
 | CP1 Scan | Gợi ý Job Story theo công việc backend và rà soát trùng lặp. | Gợi ý candidate về tìm lỗi môi trường test; Hiếu xác nhận đã gặp. | Gợi ý quên ngữ cảnh chuyển dự án dù Hiếu chưa gặp; gợi ý log work dù Hiếu không muốn theo đuổi. | Bỏ hai ý đó; gộp estimate sai và self-test chưa đủ; giữ #3–#4 ở trạng thái chưa kiểm chứng. |
 | CP2 Problem Card | Nhờ phác card và phản biện điểm thiếu bằng chứng. | Nhận ra lần trượt estimate 4 giờ chỉ là một sự kiện, chưa đủ baseline tổng quát. | Bản cập nhật chứa thời gian từng bước chưa rõ nguồn; chưa có target cho các card. | Chốt ước lượng tìm lỗi 30 phút/2 giờ, phân biệt thời gian tìm nguyên nhân với thời gian sửa; cần đo lại từng bước trước khi nộp. |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP4 Research | Nhờ AI rà soát phần bằng chứng và research đã có trong báo cáo nhóm; chưa tự mở và kiểm các link nguồn. | Phân biệt lời kể của thành viên với phỏng vấn độc lập, nhận ra chưa có log bấm giờ hoặc phỏng vấn hợp lệ. | Không thể dùng lời kể trong nhóm thay cho phỏng vấn CP4, cũng không thể xem danh sách công cụ là bằng chứng pain đã được xác nhận. | Giữ CP4 ở trạng thái chưa kiểm chứng và kết luận Not Yet; cần tự kiểm link và bổ sung kiểm chứng từ người ngoài nhóm nếu làm tiếp. |
+| CP5 Quy trình | Nhờ AI đối chiếu quy trình hiện tại của nhóm với Problem Card của Đăng. | Phát hiện kịch bản 85 phút trong báo cáo nhóm không khớp tổng 120 phút của báo cáo cá nhân. | Bản nháp đã tự phân bổ thời gian từng bước, làm lệch bottleneck được nêu ở CP2. | Yêu cầu giữ 120 phút/lần, trong đó 50 phút là bước kiểm thử thủ công; vẫn ghi rõ các mốc theo lời kể, chưa bấm giờ độc lập. |
+| CP5–6 Problem Statement | Nhờ AI rà mâu thuẫn giữa v0 và v1 của nhóm. | Chỉ ra v1 đã chuyển bottleneck từ chạy kiểm thử thủ công sang chọn case dù chưa có bằng chứng. | AI có thể biến giả thuyết phụ thành vấn đề đã được xác nhận. | Yêu cầu v0 và v1 cùng giữ bottleneck kiểm thử thủ công 50/120 phút; chỉ ghi khó chọn case là giả thuyết cần kiểm chứng. |
+| CP6 Mức can thiệp / quyết định | Nhờ AI kiểm tra sự nhất quán giữa phương án thử AI, baseline không AI và quyết định cuối. | Làm rõ cần so sánh checklist, Rule/CI và Workflow có AI trước khi kết luận AI có giá trị tăng thêm. | Đề xuất Workflow có thể bị hiểu nhầm là đã đủ điều kiện triển khai dù thiếu phỏng vấn và chưa rõ quyền dùng source code. | Giữ quyết định Not Yet; chỉ xem Workflow có AI là phương án thử trên repo mẫu, không coi là giải pháp đã được chứng minh. |
 
 ---
 
@@ -159,17 +159,17 @@ Chưa có bằng chứng bước 1 làm report chậm hoặc sai.
 
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+### 6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+### 6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+### 6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+### 6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+### 6.5. Điều khó nhất khi viết Problem Statement là gì?
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+### 6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
@@ -177,4 +177,7 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 ## 7. Tài liệu tham khảo
 
--
+- [Worksheet — hướng dẫn từng checkpoint](../../docs/01-worksheet.md): format Job Story, Problem Card và phản biện.
+- [Bài làm mẫu](../../docs/02-deliverable-example.md): tham khảo cách trình bày CP1–CP2, không sao chép số liệu.
+- [Báo cáo nhóm](../team/group_report.md): đối chiếu candidate #4, quy trình, Problem Statement và quyết định Not Yet.
+- [Báo cáo cá nhân của Nguyễn Văn Đăng](2A202603371_NguyenVanDang.md): nguồn nội bộ của mốc 120 phút/lần và bước kiểm thử 50 phút; chưa phải kiểm chứng độc lập.
