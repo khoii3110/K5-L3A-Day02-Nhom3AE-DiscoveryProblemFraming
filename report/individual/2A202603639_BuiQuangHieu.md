@@ -159,19 +159,34 @@ Chưa có bằng chứng bước 1 làm report chậm hoặc sai.
 
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
-### 6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?
-
-### 6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?
-
-### 6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.
-
-### 6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?
-
-### 6.5. Điều khó nhất khi viết Problem Statement là gì?
-
-### 6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?
-
+**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Cần chọn vấn đề có ví dụ thực tế thay vì chỉ chọn ý tưởng nghe hay.
+**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Sau khi xem xét, nhóm nhận thấy cần hiểu rõ quy trình kiểm thử hiện tại và xem các công cụ thông thường đã giải quyết được đến đâu.
+**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Ban đầu tôi nghĩ cần AI hỗ trợ ước lượng, nhưng sau khi xem xét lại, checklist kiểm thử cũng có thể giúp tránh báo hoàn thành quá sớm.
+**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Nhóm vẫn cần kiểm chứng xem AI có thực sự giúp tiết kiệm thời gian hơn không.
+**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Khó nhất là xác định đúng vấn đề chính và đưa ra số liệu cụ thể. Nhóm có một số ước lượng về thời gian, nhưng chưa đủ dữ liệu thực tế để khẳng định mức độ ảnh hưởng.
+**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Ghi lại thời gian làm việc và kiểm thử ngay từ đầu.
+Hỏi thêm developer hoặc tester về những lỗi thường gặp.
+Phản biện kỹ hơn xem vấn đề có thật sự cần AI hay chỉ cần cải thiện quy trình.
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Bạn có thể tự viết 5–8 câu theo mạch sau:
+
+Problem: Kiểm tra chức năng cũ sau khi sửa code mất nhiều thời gian.
+
+Quy trình: Developer sửa code, tự kiểm thử rồi bàn giao cho tester.
+
+Metric: Thời gian kiểm thử và số lỗi bị bỏ sót.
+
+Boundary: AI chỉ hỗ trợ gợi ý test case, developer vẫn kiểm tra và quyết định.
+
+Mức can thiệp: Workflow kết hợp công cụ kiểm thử tự động và AI.
+
+Quyết định: Not Yet vì chưa có đủ bằng chứng cho thấy AI hiệu quả hơn cách kiểm thử thông thường.
 
 ---
 
